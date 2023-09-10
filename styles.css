@@ -1,0 +1,95 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+.logo{
+  display:block;
+ 
+  margin:auto;
+}
+body{
+background-color:#F2F2F2 ;
+font-family:tahoma,sans-serif;
+}
+a{
+  color:blue;
+  text-decoration: none;
+}
+.titles, #tribute-info,#title{
+text-align:center;
+}
+.mtitle{
+  color:#6FA2E1;
+}
+
+li{
+  list-style-type: none;
+  padding:20px;
+  margin:20px;
+ text-align:center;
+}
+.fact-title, footer, .inv-title{
+  font-weight:600;
+  letter-spacing:1;
+}
+footer, li{
+  margin:auto;
+  max-width:600px;
+}
+.quote{
+ text-align:center;
+}
+* {
+  box-sizing: border-box;
+}
+.fact-image,#image{
+  max-width:600px;
+  height:300px;
+  width:100%;
+  padding:12px;
+  border-radius: 35px;
+}
+#image{
+  display:block;
+  max-width:100%;
+  height:auto;
+}
+
+.start{
+   padding: 10px;
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+  border-radius:10px;
+
+}
+.start figcaption{
+padding-top:5px;
+text-align:center;
+}
+.pigeon{
+  max-width:300px;
+  height:300px;
+  width:90%;
+  border-radius: 35px;
+  padding:auto;
+  margin:auto;
+}
+.invention-Gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+.invention-Gallery img{
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
